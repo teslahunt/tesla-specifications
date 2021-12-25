@@ -21,7 +21,7 @@
     "tesla"
   ],
   "dependencies": {
-    "tesla-title": "file:../tesla-title"
+    "tesla-title": "latest"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
