@@ -3,9 +3,9 @@
   <br><br>
 </div>
 
-![Last version](https://img.shields.io/github/tag/teslahunt/tesla-spec.svg?style=flat-square)
-[![Coverage Status](https://img.shields.io/coveralls/teslahunt/tesla-spec.svg?style=flat-square)](https://coveralls.io/github/teslahunt/tesla-spec)
-[![NPM Status](https://img.shields.io/npm/dm/tesla-spec.svg?style=flat-square)](https://www.npmjs.org/package/tesla-spec)
+![Last version](https://img.shields.io/github/tag/teslahunt/tesla-specifications.svg?style=flat-square)
+[![Coverage Status](https://img.shields.io/coveralls/teslahunt/tesla-specifications.svg?style=flat-square)](https://coveralls.io/github/teslahunt/tesla-specifications)
+[![NPM Status](https://img.shields.io/npm/dm/tesla-specifications.svg?style=flat-square)](https://www.npmjs.org/package/tesla-specifications)
 
 > Detailed technical information related to Tesla vehicles.
 
@@ -18,13 +18,13 @@ The information is collected from:
 ## Install
 
 ```bash
-$ npm install tesla-spec --save
+$ npm install tesla-specifications --save
 ```
 
 ## Usage
 
 ```js
-const teslaSpec = require('tesla-spec')
+const teslaSpec = require('tesla-specifications')
 
 console.log(teslaSpec[0])
 
@@ -44,7 +44,7 @@ console.log(teslaSpec[0])
 
 ## License
 
-**tesla-spec** © [Tesla Hunt](https://teslahunt.io), released under the [MIT](https://github.com/teslahunt/tesla-spec/blob/master/LICENSE.md) License.<br>
-Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/tesla-spec/contributors).
+**tesla-specifications** © [Tesla Hunt](https://teslahunt.io), released under the [MIT](https://github.com/teslahunt/tesla-specifications/blob/master/LICENSE.md) License.<br>
+Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/tesla-specifications/contributors).
 
 > [teslahunt.io](https://teslahunt.io) · GitHub [Tesla Hunt](https://github.com/teslahunt) · Twitter [@teslahunt](https://twitter.com/teslahunt)

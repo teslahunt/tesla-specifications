@@ -1,20 +1,20 @@
 {
-  "name": "tesla-spec",
+  "name": "tesla-specifications",
   "description": "Detailed technical information related to Tesla vehicles.",
-  "homepage": "https://nicedoc.io/teslahunt/tesla-spec",
+  "homepage": "https://nicedoc.io/teslahunt/tesla-specifications",
   "version": "0.0.0",
   "main": "index.json",
   "author": {
-    "email": "hello@teslahunt.io",
     "name": "Tesla Hunt",
+    "email": "hello@teslahunt.io",
     "url": "https://teslahunt.io"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teslahunt/tesla-spec.git"
+    "url": "git+https://github.com/teslahunt/tesla-specifications.git"
   },
   "bugs": {
-    "url": "https://github.com/teslahunt/tesla-spec/issues"
+    "url": "https://github.com/teslahunt/tesla-specifications/issues"
   },
   "keywords": [
     "spec",
@@ -28,6 +28,7 @@
     "@commitlint/config-conventional": "latest",
     "ava": "latest",
     "c8": "latest",
+    "ci-publish": "latest",
     "conventional-github-releaser": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
@@ -47,7 +48,7 @@
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "coverage": "c8 report --reporter=text-lcov > coverage/lcov.info",
     "lint": "standard-markdown README.md && standard",
-    "postrelease": "npm run release:tags && npm run release:github && npm publish",
+    "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
     "prerelease": "npm run update:check && npm run contributors",
     "pretest": "npm run lint",
     "release": "standard-version -a",
