@@ -9,6 +9,12 @@
     "name": "Tesla Hunt",
     "url": "https://teslahunt.io"
   },
+  "contributors": [
+    {
+      "name": "Kiko Beats",
+      "email": "josefrancisco.verdu@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teslahunt/tesla-specifications.git"
