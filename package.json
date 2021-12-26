@@ -3,10 +3,10 @@
   "description": "Detailed technical information related to Tesla vehicles.",
   "homepage": "https://nicedoc.io/teslahunt/tesla-specifications",
   "version": "0.0.0",
-  "main": "index.json",
+  "main": "src/index.js",
   "author": {
-    "name": "Tesla Hunt",
     "email": "hello@teslahunt.io",
+    "name": "Tesla Hunt",
     "url": "https://teslahunt.io"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "tesla"
   ],
   "dependencies": {
-    "tesla-title": "latest"
+    "tesla-title": "~1.0.7"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -43,6 +43,9 @@
   "engines": {
     "node": ">= 14"
   },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
