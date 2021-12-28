@@ -4,10 +4,10 @@
     "batteryPack": "75 kWh",
     "curbWeight": "1847 kg",
     "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "13 kWh / 100 km",
+    "efficiency": "16 kWh / 100 km",
     "enginePower": "346 hp",
     "engineTorque": "527 Nm",
-    "range": "518 km",
+    "range": "465 km",
     "topSpeed": "225 km/h",
     "wheelBase": "2875 mm"
   },
@@ -19,7 +19,7 @@
     "efficiency": "14 kWh / 100 km",
     "enginePower": "258 hp",
     "engineTorque": "430 Nm",
-    "range": "523 km",
+    "range": "501 km",
     "topSpeed": "225 km/h",
     "wheelBase": "2875 mm"
   },
@@ -31,7 +31,7 @@
     "efficiency": "15 kWh / 100 km",
     "enginePower": "258 hp",
     "engineTorque": "416 Nm",
-    "range": "424 km",
+    "range": "395 km",
     "topSpeed": "225 km/h",
     "wheelBase": "2875 mm"
   },
@@ -43,7 +43,7 @@
     "efficiency": "13 kWh / 100 km",
     "enginePower": "450 hp",
     "engineTorque": "639 Nm",
-    "range": "498 km",
+    "range": "451 km",
     "topSpeed": "260 km/h",
     "wheelBase": "2875 mm"
   },
@@ -55,7 +55,7 @@
     "efficiency": "13 kWh / 100 km",
     "enginePower": "201 hp",
     "engineTorque": "350 Nm",
-    "range": "354 km",
+    "range": "325 km",
     "topSpeed": "210 km/h",
     "wheelBase": "2875 mm"
   },
@@ -67,7 +67,7 @@
     "efficiency": "14 kWh / 100 km",
     "enginePower": "201 hp",
     "engineTorque": "350 Nm",
-    "range": "402 km",
+    "range": "358 km",
     "topSpeed": "225 km/h",
     "wheelBase": "2875 mm"
   },
@@ -79,7 +79,7 @@
     "efficiency": "16 kWh / 100 km",
     "enginePower": "517 hp",
     "engineTorque": "660 Nm",
-    "range": "513 km",
+    "range": "477 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2959 mm"
   },
@@ -91,7 +91,7 @@
     "efficiency": "16 kWh / 100 km",
     "enginePower": "302 hp",
     "engineTorque": "430 Nm",
-    "range": "330 km",
+    "range": "328 km",
     "topSpeed": "210 km/h",
     "wheelBase": "2959 mm"
   },
@@ -103,7 +103,7 @@
     "efficiency": "15.4 kWh / 100 km",
     "enginePower": "329 hp",
     "engineTorque": "525 Nm",
-    "range": "350 km",
+    "range": "346 km",
     "topSpeed": "210 km/h",
     "wheelBase": "2959 mm"
   },
@@ -163,7 +163,7 @@
     "efficiency": "16.9 kWh / 100 km",
     "enginePower": "373 hp",
     "engineTorque": "441 Nm",
-    "range": "393 km",
+    "range": "365 km",
     "topSpeed": "230 km/h",
     "wheelBase": "2959 mm"
   },
@@ -211,7 +211,7 @@
     "efficiency": "16.4 kWh / 100 km",
     "enginePower": "517 hp",
     "engineTorque": "660 Nm",
-    "range": "540 km",
+    "range": "502 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2959 mm"
   },
@@ -283,7 +283,7 @@
     "efficiency": "17.7 kWh / 100 km",
     "enginePower": "532 hp",
     "engineTorque": "931 Nm",
-    "range": "438 km",
+    "range": "456 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2959 mm"
   },
@@ -295,7 +295,7 @@
     "efficiency": "16.9 kWh / 100 km",
     "enginePower": "785 hp",
     "engineTorque": "967 Nm",
-    "range": "518 km",
+    "range": "480 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2959 mm"
   },
@@ -331,7 +331,7 @@
     "efficiency": "18 kWh / 100 km",
     "enginePower": "517 hp",
     "engineTorque": "660 Nm",
-    "range": "468 km",
+    "range": "398 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
@@ -343,7 +343,7 @@
     "efficiency": "18 kWh / 100 km",
     "enginePower": "329 hp",
     "engineTorque": "658 Nm",
-    "range": "372 km",
+    "range": "316 km",
     "topSpeed": "210 km/h",
     "wheelBase": "2964 mm"
   },
@@ -367,7 +367,7 @@
     "efficiency": "19.7 kWh / 100 km",
     "enginePower": "417 hp",
     "engineTorque": "660 Nm",
-    "range": "480 km",
+    "range": "479 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
@@ -379,7 +379,7 @@
     "efficiency": "19.7 kWh / 100 km",
     "enginePower": "417 hp",
     "engineTorque": "660 Nm",
-    "range": "550 km",
+    "range": "529 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
@@ -391,7 +391,7 @@
     "efficiency": "18.7 kWh / 100 km",
     "enginePower": "605 hp",
     "engineTorque": "967 Nm",
-    "range": "462 km",
+    "range": "393 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
@@ -403,7 +403,7 @@
     "efficiency": "16.5 kWh / 100 km",
     "enginePower": "532 hp",
     "engineTorque": "931 Nm",
-    "range": "388 km",
+    "range": "330 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
@@ -415,7 +415,7 @@
     "efficiency": "16.5 kWh / 100 km",
     "enginePower": "785 hp",
     "engineTorque": "967 Nm",
-    "range": "490 km",
+    "range": "402 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
