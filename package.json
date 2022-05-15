@@ -2,7 +2,7 @@
   "name": "tesla-specifications",
   "description": "Detailed technical information related to Tesla vehicles.",
   "homepage": "https://nicedoc.io/teslahunt/tesla-specifications",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
   "author": {
     "email": "hello@teslahunt.io",
