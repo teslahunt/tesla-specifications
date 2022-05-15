@@ -288,7 +288,7 @@
     "wheelBase": "2959 mm"
   },
   "Model S Performance": {
-    "acceleration": "2.6 secs",
+    "acceleration": "2.5 secs",
     "batteryPack": "100 kWh",
     "curbWeight": "2241 kg",
     "dimensions": "4971 x 1963 x 1445",
@@ -296,20 +296,44 @@
     "enginePower": "785 hp",
     "engineTorque": "967 Nm",
     "range": "480 km",
+    "topSpeed": "260 km/h",
+    "wheelBase": "2959 mm"
+  },
+  "Model S": {
+    "acceleration": "3.1 secs",
+    "batteryPack": "100 kWh",
+    "curbWeight": "2215 kg",
+    "dimensions": "4971 x 1963 x 1445",
+    "efficiency": "16.4 kWh / 100 km",
+    "enginePower": "517 hp",
+    "engineTorque": "660 Nm",
+    "range": "564 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2959 mm"
   },
   "Model S Plaid": {
-    "acceleration": "2.1 secs",
-    "batteryPack": "95 kWh",
+    "acceleration": "2.2 secs",
+    "batteryPack": "100 kWh",
     "curbWeight": "2241 kg",
     "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.9 kWh / 100 km",
-    "enginePower": "1100 hp",
-    "engineTorque": "??? Nm",
-    "range": "560 km",
-    "topSpeed": "250 km/h",
+    "efficiency": "16 kWh / 100 km",
+    "enginePower": "1020 hp",
+    "engineTorque": "1230 Nm",
+    "range": "510 km",
+    "topSpeed": "320 km/h",
     "wheelBase": "2959 mm"
+  },
+  "Model S Plaid+": {
+    "acceleration": "??? secs",
+    "batteryPack": "??? kWh",
+    "curbWeight": "??? kg",
+    "dimensions": "4971 x 1963 x 1445",
+    "efficiency": "??? kWh / 100 km",
+    "enginePower": "??? hp",
+    "engineTorque": "??? Nm",
+    "range": "??? km",
+    "topSpeed": "??? km/h",
+    "wheelBase": "??? mm"
   },
   "Model S Standard Range": {
     "acceleration": "4.2 secs",
@@ -419,6 +443,18 @@
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
   },
+  "Model X": {
+    "acceleration": "3.8 secs",
+    "batteryPack": "100 kWh",
+    "curbWeight": "2459 kg",
+    "dimensions": "5037 x 2070 x 1626",
+    "efficiency": "19.7 kWh / 100 km",
+    "enginePower": "417 hp",
+    "engineTorque": "660 Nm",
+    "range": "529 km",
+    "topSpeed": "250 km/h",
+    "wheelBase": "2964 mm"
+  },
   "Model X Plaid": {
     "acceleration": "2.6 secs",
     "batteryPack": "100 kWh",
@@ -430,6 +466,18 @@
     "range": "547 km",
     "topSpeed": "250 km/h",
     "wheelBase": "2964 mm"
+  },
+  "Model X Plaid+": {
+    "acceleration": "??? secs",
+    "batteryPack": "??? kWh",
+    "curbWeight": "??? kg",
+    "dimensions": "5037 x 2070 x 1626",
+    "efficiency": "??? kWh / 100 km",
+    "enginePower": "?? hp",
+    "engineTorque": "??? Nm",
+    "range": "??? km",
+    "topSpeed": "??? km/h",
+    "wheelBase": "??? mm"
   },
   "Model X Standard Range": {
     "acceleration": "4.8 secs",
