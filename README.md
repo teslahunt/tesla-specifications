@@ -44,7 +44,7 @@ console.log(teslaSpec[0])
 
 ## License
 
-**tesla-specifications** © [Tesla Hunt](https://teslahunt.io), released under the [MIT](https://github.com/teslahunt/tesla-specifications/blob/master/LICENSE.md) License.<br>
-Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/tesla-specifications/contributors).
+**tesla-specifications** © [Tesla Hunt](https://teslahunt.io), Released under the [MIT](https://github.com/teslahunt/specifications/blob/master/LICENSE.md) License.<br>
+Authored and maintained by [Tesla Hunt](https://teslahunt.io) with help from [contributors](https://github.com/teslahunt/specifications/contributors).
 
-> [teslahunt.io](https://teslahunt.io) · GitHub [Tesla Hunt](https://github.com/teslahunt) · Twitter [@teslahunt](https://twitter.com/teslahunt)
+> [teslahunt.io](https://teslahunt.io) · GitHub [teslahunt](https://github.com/teslahunt) · Twitter [@teslahuntio](https://twitter.com/teslahuntio)
