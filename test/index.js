@@ -6,12 +6,16 @@ const { MODEL_S, MODEL_X, MODEL_Y, MODEL_3 } = require('tesla-title')
 
 const teslaSpec = require('../')
 
-const cars = [].concat(
-  Object.keys(MODEL_S),
-  Object.keys(MODEL_X),
-  Object.keys(MODEL_Y),
-  Object.keys(MODEL_3)
-)
+const cars = [
+  ['Model S', MODEL_S],
+  ['Model 3', MODEL_3],
+  ['Model X', MODEL_X],
+  ['Model Y', MODEL_Y]
+].reduce((acc, [baseTitle, data]) => {
+  const titles = Array.from(new Map(data).keys()).map(model => `${baseTitle} ${model}`.trim())
+  acc = acc.concat(titles)
+  return acc
+}, [])
 
 const omit = ['Model S Plaid+']
 
