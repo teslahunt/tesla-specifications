@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.11 (2023-12-20)
+
+
+### Bug Fixes
+
+* add Model Y ([a4bf35a](https://github.com/teslahunt/tesla-specifications/commit/a4bf35a91bf4c410c2225543b1c3649ec3ab0bdd))
+
 ### 1.0.10 (2023-10-24)
 
 ### 1.0.9 (2023-10-19)
