@@ -2,7 +2,7 @@
   "name": "tesla-specifications",
   "description": "Detailed technical information related to Tesla vehicles.",
   "homepage": "https://github.com/teslahunt/tesla-specifications",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "src/index.js",
   "author": {
     "email": "hello@teslahunt.io",
