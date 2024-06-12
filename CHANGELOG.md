@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2024-06-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* use Tesla official data
+
+### Features
+
+* use Tesla official data ([9d0f919](https://github.com/teslahunt/tesla-specifications/commit/9d0f91909d2d1ce92d6a12ff7876bdf029873e39))
+
 ### 1.0.19 (2024-06-12)
 
 ### 1.0.18 (2024-05-09)
