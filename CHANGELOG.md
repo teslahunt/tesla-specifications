@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.3 (2024-06-12)
+
+
+### Bug Fixes
+
+* wheelbase → wheelBase ([4f8b900](https://github.com/teslahunt/tesla-specifications/commit/4f8b90054e776eff68835802e54f4eb762195731))
+
 ### 2.0.2 (2024-06-12)
 
 
