@@ -50,7 +50,7 @@ const processResults = results => {
       data.group.startsWith('SPEC')
     )
     const wheels = getWheels(OptionCodeData)
-    const chasis = specData[0].code.slice(1)
+    const chassis = specData[0].code.slice(1)
 
     const spec = {
       acceleration: getSpec('SPECS_ACCELERATION', specData),
@@ -58,14 +58,14 @@ const processResults = results => {
       rangeWLTP: rangeWLTP('SPECS_RANGE', specData)
     }
 
-    if (DATA[chasis] === undefined) DATA[chasis] = {}
-    if (DATA[chasis][wheels]) continue
+    if (DATA[chassis] === undefined) DATA[chassis] = {}
+    if (DATA[chassis][wheels]) continue
 
     const updateSpec = spec => {
       spec.acceleration = unitSpace(spec.acceleration)
       spec.topSpeed = unitSpace(spec.topSpeed)
       spec.rangeWLTP = unitSpace(spec.rangeWLTP)
-      DATA[chasis][wheels] = spec
+      DATA[chassis][wheels] = spec
     }
 
     if (spec.topSpeed.includes('km/h') && spec.acceleration.endsWith('s')) {
@@ -88,7 +88,7 @@ const processResults = results => {
         rangeWLTP: `${milesToKm(parseNum(spec.rangeWLTP))}km`
       })
     } else {
-      debug('skipped', { vin, chasis }, spec)
+      debug('skipped', { vin, chassis }, spec)
       continue
     }
   }

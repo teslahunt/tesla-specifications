@@ -23,7 +23,7 @@ $ npm install tesla-specifications --save
 
 ## Usage
 
-The data is based in Tesla official numbers taking into the chasis and the wheel size:
+The data is based in Tesla official numbers taking into the chassis and the wheel size:
 
 ```js
 const teslaSpecs = require('tesla-specifications')

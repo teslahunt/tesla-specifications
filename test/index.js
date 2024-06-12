@@ -4,7 +4,7 @@ const test = require('ava')
 
 const teslaSpecs = require('../')
 
-test("return undefined if chasis doesn't exist", t => {
+test("return undefined if chassis doesn't exist", t => {
   const specs = teslaSpecs({ optionCodes: ['MT303'], modelLetter: 'T' })
   t.is(specs, undefined)
 })

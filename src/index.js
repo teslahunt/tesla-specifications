@@ -34,9 +34,9 @@ const EXTRA = {
 }
 
 module.exports = ({ optionCodes, modelLetter }) => {
-  const chasis = optionCodes.find(code => code.startsWith(`MT${modelLetter}`))
-  if (!chasis) return
-  const specs = teslaSpecs[chasis]
+  const chassis = optionCodes.find(code => code.startsWith(`MT${modelLetter}`))
+  if (!chassis) return
+  const specs = teslaSpecs[chassis]
   return {
     ...specs[Object.keys(specs)[0]],
     ...EXTRA[modelLetter]
