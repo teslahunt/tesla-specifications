@@ -45,7 +45,7 @@ const sortObjectByKey = obj =>
 const milesToKm = miles => Math.round(miles * 1.60934)
 
 // https://evdb.nz/wltp
-const EPAtoWLTP = range => Math.round(range * 1.88)
+const EPAtoWLTP = range => Math.round(range * 1.16)
 
 const unitSpace = str => str.replace(/(\d+)([a-zA-Z/])/, '$1 $2')
 

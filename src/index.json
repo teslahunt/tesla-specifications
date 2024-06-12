@@ -648,55 +648,55 @@
     "19": {
       "acceleration": "5.3 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "739 km"
+      "rangeWLTP": "455 km"
     },
     "20": {
       "acceleration": "5.3 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "739 km"
+      "rangeWLTP": "455 km"
     }
   },
   "MTY03": {
     "19": {
       "acceleration": "4.2 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "987 km"
+      "rangeWLTP": "608 km"
     },
     "20": {
       "acceleration": "4.2 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "987 km"
+      "rangeWLTP": "608 km"
     }
   },
   "MTY04": {
     "20": {
       "acceleration": "3.5 s",
       "topSpeed": "233 km/h",
-      "rangeWLTP": "953 km"
+      "rangeWLTP": "587 km"
     },
     "21": {
       "acceleration": "3.5 s",
       "topSpeed": "249 km/h",
-      "rangeWLTP": "880 km"
+      "rangeWLTP": "544 km"
     }
   },
   "MTY05": {
     "21": {
       "acceleration": "3.5 s",
       "topSpeed": "249 km/h",
-      "rangeWLTP": "917 km"
+      "rangeWLTP": "565 km"
     }
   },
   "MTY06": {
     "19": {
       "acceleration": "4.2 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "987 km"
+      "rangeWLTP": "608 km"
     },
     "20": {
       "acceleration": "4.2 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "987 km"
+      "rangeWLTP": "608 km"
     }
   },
   "MTY07": {
@@ -756,7 +756,7 @@
     "20": {
       "acceleration": "6.6 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "732 km"
+      "rangeWLTP": "452 km"
     }
   },
   "MTY20": {},
@@ -766,7 +766,7 @@
     "19": {
       "acceleration": "4.8 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "932 km"
+      "rangeWLTP": "575 km"
     }
   },
   "MTY25": {
@@ -819,12 +819,12 @@
     "19": {
       "acceleration": "6.5 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "969 km"
+      "rangeWLTP": "597 km"
     },
     "20": {
       "acceleration": "6.5 s",
       "topSpeed": "217 km/h",
-      "rangeWLTP": "893 km"
+      "rangeWLTP": "550 km"
     }
   }
 }
