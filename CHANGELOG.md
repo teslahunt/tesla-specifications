@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.5 (2024-06-12)
+
+
+### Bug Fixes
+
+* conversion WLTP ratio ([ec8ec3b](https://github.com/teslahunt/tesla-specifications/commit/ec8ec3b2095710ed85398bee44dc6e743b79bc11))
+
 ### 2.0.4 (2024-06-12)
 
 
