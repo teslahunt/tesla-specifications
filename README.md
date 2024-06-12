@@ -9,11 +9,11 @@
 
 > Detailed technical information related to Tesla vehicles.
 
-The information is collected from:
+All the specifications are normalized into:
 
-- [evcompare.io](https://evcompare.io)
-- [evspecifications.com](https://www.evspecifications.com)
-- [teslike.com](https://teslike.com)
+- acceleration: 0-100 km/h in seconds.
+- top speed: km/h.
+- range: kms in WLTP cycle.
 
 ## Install
 
@@ -23,22 +23,22 @@ $ npm install tesla-specifications --save
 
 ## Usage
 
+The data is based in Tesla official numbers taking into the chasis and the wheel size:
+
 ```js
-const teslaSpec = require('tesla-specifications')
+const teslaSpecs = require('tesla-specifications')
 
-console.log(teslaSpec[0])
+const specs = teslaSpecs({ optionCodes: ['MT303'], modelLetter: '3' })
 
-// "Model 3 Long Range AWD": {
-//   "acceleration": "4.6 secs",
-//   "batteryPack": "75 kWh",
-//   "curbWeight": "1847 kg",
-//   "dimensions": "4694 x 1850 x 1443",
-//   "efficiency": "13.4 kWh / 100 km",
-//   "enginePower": "346 hp",
-//   "engineTorque": "527 Nm",
-//   "range": "518 km",
-//   "topSpeed": "225 km/h",
-//   "wheelBase": "2875 mm"
+console.log(specs)
+// {
+//   acceleration: '4.6 s',
+//   curbWeight: '1704 kg',
+//   dimensions: '4720 mm L x 1850 mm W x 1441 mm H',
+//   dragCoefficient: '0.219 Cd',
+//   rangeWLTP: '560 km',
+//   topSpeed: '233 km/h',
+//   wheelbase: '2875 mm',
 // }
 ```
 

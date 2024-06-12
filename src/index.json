@@ -1,566 +1,830 @@
 {
-  "Model 3": {
-    "acceleration": " 6.1 secs",
-    "batteryPack": "60 kWh",
-    "curbWeight": "1704 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "13 kWh / 100 km",
-    "enginePower": "280 hp",
-    "engineTorque": "350 Nm",
-    "range": "420 km",
-    "topSpeed": "201 km/h",
-    "wheelBase": "2875 mm"
+  "MT10A": {
+    "19": {
+      "acceleration": "4.3 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "632 km"
+    },
+    "20": {
+      "acceleration": "4.9 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "565 km"
+    },
+    "21": {
+      "acceleration": "4.3 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "632 km"
+    },
+    "22": {
+      "acceleration": "4.9 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "565 km"
+    }
   },
-  "Model 3 Long Range AWD": {
-    "acceleration": "4.4 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "1847 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "16 kWh / 100 km",
-    "enginePower": "346 hp",
-    "engineTorque": "527 Nm",
-    "range": "465 km",
-    "topSpeed": "225 km/h",
-    "wheelBase": "2875 mm"
+  "MT10L": {
+    "19": {
+      "acceleration": "2.6 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "613 km"
+    },
+    "20": {
+      "acceleration": "3 sec",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "542 km"
+    },
+    "21": {
+      "acceleration": "2.6 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "613 km"
+    },
+    "22": {
+      "acceleration": "2.8 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "542 km"
+    }
   },
-  "Model 3 Long Range RWD": {
-    "acceleration": "5.2 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "1726 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "14 kWh / 100 km",
-    "enginePower": "258 hp",
-    "engineTorque": "430 Nm",
-    "range": "501 km",
-    "topSpeed": "225 km/h",
-    "wheelBase": "2875 mm"
+  "MT301": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "409 km"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "409 km"
+    }
   },
-  "Model 3 Mid Range": {
-    "acceleration": "5.1 secs",
-    "batteryPack": "62 kWh",
-    "curbWeight": "1672 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "15 kWh / 100 km",
-    "enginePower": "258 hp",
-    "engineTorque": "416 Nm",
-    "range": "395 km",
-    "topSpeed": "225 km/h",
-    "wheelBase": "2875 mm"
+  "MT302": {
+    "18": {
+      "acceleration": "5 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "523 km"
+    },
+    "19": {
+      "acceleration": "5 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "523 km"
+    }
   },
-  "Model 3 Performance": {
-    "acceleration": "3.3 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "1847 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "13 kWh / 100 km",
-    "enginePower": "450 hp",
-    "engineTorque": "639 Nm",
-    "range": "451 km",
-    "topSpeed": "260 km/h",
-    "wheelBase": "2875 mm"
+  "MT303": {
+    "18": {
+      "acceleration": "4.6 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "560 km"
+    },
+    "19": {
+      "acceleration": "4.6 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "560 km"
+    }
   },
-  "Model 3 Standard Range": {
-    "acceleration": "5.8 secs",
-    "batteryPack": "50 kWh",
-    "curbWeight": "1611 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "13 kWh / 100 km",
-    "enginePower": "280 hp",
-    "engineTorque": "350 Nm",
-    "range": "325 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2875 mm"
+  "MT304": {
+    "18": {
+      "acceleration": "3.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "530 km"
+    },
+    "19": {
+      "acceleration": "3.4 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "530 km"
+    },
+    "20": {
+      "acceleration": "3.4 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "530 km"
+    }
   },
-  "Model 3 Standard Range Plus": {
-    "acceleration": " 5.6 secs",
-    "batteryPack": "50 kWh",
-    "curbWeight": "1704 kg",
-    "dimensions": "4694 x 1850 x 1443",
-    "efficiency": "14 kWh / 100 km",
-    "enginePower": "280 hp",
-    "engineTorque": "350 Nm",
-    "range": "358 km",
-    "topSpeed": "225 km/h",
-    "wheelBase": "2875 mm"
+  "MT305": {
+    "18": {
+      "acceleration": "5.2 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "425 km"
+    },
+    "19": {
+      "acceleration": "5.2 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "425 km"
+    }
   },
-  "Model S 100D": {
-    "acceleration": "4.3 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2215 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16 kWh / 100 km",
-    "enginePower": "517 hp",
-    "engineTorque": "660 Nm",
-    "range": "477 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT308": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "409 km"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "409 km"
+    }
   },
-  "Model S 60": {
-    "acceleration": "5.8 secs",
-    "batteryPack": "60 kWh",
-    "curbWeight": "1961 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16 kWh / 100 km",
-    "enginePower": "302 hp",
-    "engineTorque": "430 Nm",
-    "range": "328 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2959 mm"
+  "MT309": {
+    "18": {
+      "acceleration": "5.3 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "600 km"
+    }
   },
-  "Model S 60D": {
-    "acceleration": "5.4 secs",
-    "batteryPack": "60 kWh",
-    "curbWeight": "2090 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "15.4 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "525 Nm",
-    "range": "346 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2959 mm"
+  "MT310": {
+    "18": {
+      "acceleration": "4.6 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "560 km"
+    },
+    "19": {
+      "acceleration": "4.6 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "560 km"
+    }
   },
-  "Model S 70": {
-    "acceleration": "5.8 secs",
-    "batteryPack": "70 kWh",
-    "curbWeight": "2000 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.7 kWh / 100 km",
-    "enginePower": "315 hp",
-    "engineTorque": "441 Nm",
-    "range": "332 km",
-    "topSpeed": "230 km/h",
-    "wheelBase": "2959 mm"
+  "MT311": {
+    "20": {
+      "acceleration": "3.4 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "530 km"
+    }
   },
-  "Model S 70D": {
-    "acceleration": "5.4 secs",
-    "batteryPack": "70 kWh",
-    "curbWeight": "2090 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "15.8 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "525 Nm",
-    "range": "368 km",
-    "topSpeed": "230 km/h",
-    "wheelBase": "2959 mm"
+  "MT314": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "448 km"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "448 km"
+    }
   },
-  "Model S 75": {
-    "acceleration": "4.5 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2000 kg",
-    "dimensions": "4978 x 1963 x 1445",
-    "efficiency": "15.6 kWh / 100 km",
-    "enginePower": "315 hp",
-    "engineTorque": "441 Nm",
-    "range": "386 km",
-    "topSpeed": "230 km/h",
-    "wheelBase": "2959 mm"
+  "MT315": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "580 km"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "580 km"
+    }
   },
-  "Model S 75D": {
-    "acceleration": "4.4 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2090 kg",
-    "dimensions": "4978 x 1963 x 1445",
-    "efficiency": "15.3 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "658 Nm",
-    "range": "404 km",
-    "topSpeed": "230 km/h",
-    "wheelBase": "2959 mm"
+  "MT316": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "580 km"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "580 km"
+    }
   },
-  "Model S 85": {
-    "acceleration": "5.6 secs",
-    "batteryPack": "85 kWh",
-    "curbWeight": "2108 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.9 kWh / 100 km",
-    "enginePower": "373 hp",
-    "engineTorque": "441 Nm",
-    "range": "365 km",
-    "topSpeed": "230 km/h",
-    "wheelBase": "2959 mm"
+  "MT317": {
+    "20": {
+      "acceleration": "3.3 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "567 km"
+    }
   },
-  "Model S 85D": {
-    "acceleration": "5.2 secs",
-    "batteryPack": "85 kWh",
-    "curbWeight": "2188 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.1 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "658 Nm",
-    "range": "426 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT320": {
+    "18": {
+      "acceleration": "5.3 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "430 km"
+    }
   },
-  "Model S 90": {
-    "acceleration": "3.8 secs",
-    "batteryPack": "90 kWh",
-    "curbWeight": "2100 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "23 kWh / 100 km",
-    "enginePower": "382 hp",
-    "engineTorque": "440 Nm",
-    "range": "435 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT321": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "614 km"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "614 km"
+    }
   },
-  "Model S 90D": {
-    "acceleration": "4 secs",
-    "batteryPack": "90 kWh",
-    "curbWeight": "2200 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "17 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "658 Nm",
-    "range": "456 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT322": {
+    "18": {
+      "acceleration": "6.1 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "491 km"
+    },
+    "19": {
+      "acceleration": "6.1 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "491 km"
+    }
   },
-  "Model S Long Range": {
-    "acceleration": "3.8 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2215 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.4 kWh / 100 km",
-    "enginePower": "517 hp",
-    "engineTorque": "660 Nm",
-    "range": "502 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT323": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "614 km"
+    }
   },
-  "Model S Long Range Plus": {
-    "acceleration": "3.8 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2215 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.4 kWh / 100 km",
-    "enginePower": "517 hp",
-    "engineTorque": "660 Nm",
-    "range": "564 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT324": {
+    "18": {
+      "acceleration": "3.7 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "576 km"
+    }
   },
-  "Model S P100D": {
-    "acceleration": "2.4 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2241 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.3 kWh / 100 km",
-    "enginePower": "605 hp",
-    "engineTorque": "967 Nm",
-    "range": "488 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT325": {
+    "20": {
+      "acceleration": "3.3 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "547 km"
+    }
   },
-  "Model S P85": {
-    "acceleration": "4.4 secs",
-    "batteryPack": "85 kWh",
-    "curbWeight": "2112 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.9 kWh / 100 km",
-    "enginePower": "470 hp",
-    "engineTorque": "601 Nm",
-    "range": "393 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2959 mm"
+  "MT327": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "491 km"
+    }
   },
-  "Model S P85+": {
-    "acceleration": "4.4 secs",
-    "batteryPack": "85 kWh",
-    "curbWeight": "2146 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.9 kWh / 100 km",
-    "enginePower": "470 hp",
-    "engineTorque": "601 Nm",
-    "range": "393 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2959 mm"
+  "MT328": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "602 km"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "602 km"
+    }
   },
-  "Model S P85D": {
-    "acceleration": "3.3 secs",
-    "batteryPack": "85 kWh",
-    "curbWeight": "2239 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "17.7 kWh / 100 km",
-    "enginePower": "463 hp",
-    "engineTorque": "931 Nm",
-    "range": "390 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT329": {
+    "20": {
+      "acceleration": "3.3 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "547 km"
+    }
   },
-  "Model S P90D": {
-    "acceleration": "3 secs",
-    "batteryPack": "90 kWh",
-    "curbWeight": "2250 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "17.7 kWh / 100 km",
-    "enginePower": "532 hp",
-    "engineTorque": "931 Nm",
-    "range": "456 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT332": {},
+  "MT333": {},
+  "MT334": {},
+  "MT336": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "440 km"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "440 km"
+    }
   },
-  "Model S Performance": {
-    "acceleration": "2.5 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2241 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.9 kWh / 100 km",
-    "enginePower": "785 hp",
-    "engineTorque": "967 Nm",
-    "range": "480 km",
-    "topSpeed": "260 km/h",
-    "wheelBase": "2959 mm"
+  "MT337": {
+    "18": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "448 km"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "448 km"
+    }
   },
-  "Model S": {
-    "acceleration": "3.1 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2215 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16.4 kWh / 100 km",
-    "enginePower": "517 hp",
-    "engineTorque": "660 Nm",
-    "range": "564 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT339": {},
+  "MT340": {
+    "20": {
+      "acceleration": "3.3 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "547 km"
+    }
   },
-  "Model S Plaid": {
-    "acceleration": "2.2 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2241 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "16 kWh / 100 km",
-    "enginePower": "1020 hp",
-    "engineTorque": "1230 Nm",
-    "range": "510 km",
-    "topSpeed": "320 km/h",
-    "wheelBase": "2959 mm"
+  "MT341": {
+    "18": {
+      "acceleration": "5.9 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "620 km"
+    }
   },
-  "Model S Plaid+": {
-    "acceleration": "??? secs",
-    "batteryPack": "??? kWh",
-    "curbWeight": "??? kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "??? kWh / 100 km",
-    "enginePower": "??? hp",
-    "engineTorque": "??? Nm",
-    "range": "??? km",
-    "topSpeed": "??? km/h",
-    "wheelBase": "??? mm"
+  "MT351": {
+    "18": {
+      "acceleration": "6.1 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "513 km"
+    },
+    "19": {
+      "acceleration": "6.1 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "513 km"
+    }
   },
-  "Model S Standard Range": {
-    "acceleration": "4.2 secs",
-    "batteryPack": "80 kWh",
-    "curbWeight": "2090 kg",
-    "dimensions": "4971 x 1963 x 1445",
-    "efficiency": "17.8 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "658 Nm",
-    "range": "414 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2959 mm"
+  "MT352": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "629 km"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "629 km"
+    }
   },
-  "Model X 100D": {
-    "acceleration": "4.9 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2459 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "18 kWh / 100 km",
-    "enginePower": "517 hp",
-    "engineTorque": "660 Nm",
-    "range": "398 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MT353": {
+    "20": {
+      "acceleration": "3.1 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "528 km"
+    }
   },
-  "Model X 75D": {
-    "acceleration": "5.2 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2330 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "18 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "658 Nm",
-    "range": "316 km",
-    "topSpeed": "210 km/h",
-    "wheelBase": "2964 mm"
+  "MT75A": {
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "490 km"
+    },
+    "20": {
+      "acceleration": "5.2 sec",
+      "topSpeed": "209 km/h",
+      "rangeWLTP": "417 km"
+    },
+    "21": {
+      "acceleration": "4.4 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "490 km"
+    }
   },
-  "Model X 90D": {
-    "acceleration": "5 secs",
-    "batteryPack": "90 kWh",
-    "curbWeight": "2390 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "18 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "658 Nm",
-    "range": "403 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS03": {
+    "19": {
+      "acceleration": "3.8 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "610 km"
+    }
   },
-  "Model X Long Range": {
-    "acceleration": "4.6 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2459 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "19.7 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "660 Nm",
-    "range": "479 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS04": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "593 km"
+    },
+    "21": {
+      "acceleration": "3.2 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "593 km"
+    }
   },
-  "Model X Long Range Plus": {
-    "acceleration": "4.6 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2459 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "19.7 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "660 Nm",
-    "range": "529 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS05": {
+    "19": {
+      "acceleration": "3.8 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "610 km"
+    },
+    "21": {
+      "acceleration": "3.8 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "610 km"
+    }
   },
-  "Model X P100D": {
-    "acceleration": "3 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2509 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "18.7 kWh / 100 km",
-    "enginePower": "605 hp",
-    "engineTorque": "967 Nm",
-    "range": "393 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS06": {
+    "19": {
+      "acceleration": "2.5 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "593 km"
+    },
+    "21": {
+      "acceleration": "2.5 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "593 km"
+    }
   },
-  "Model X P90D": {
-    "acceleration": "3.4 secs",
-    "batteryPack": "90 kWh",
-    "curbWeight": "2440 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "16.5 kWh / 100 km",
-    "enginePower": "532 hp",
-    "engineTorque": "931 Nm",
-    "range": "330 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS07": {
+    "19": {
+      "acceleration": "3.7 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "647 km"
+    },
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "652 km"
+    }
   },
-  "Model X Performance": {
-    "acceleration": "2.9 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2509 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "16.5 kWh / 100 km",
-    "enginePower": "785 hp",
-    "engineTorque": "967 Nm",
-    "range": "402 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS08": {
+    "21": {
+      "acceleration": "2.5 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "639 km"
+    }
   },
-  "Model X": {
-    "acceleration": "3.8 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2459 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "19.7 kWh / 100 km",
-    "enginePower": "417 hp",
-    "engineTorque": "660 Nm",
-    "range": "529 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS10": {
+    "19": {
+      "acceleration": "3.1 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "652 km"
+    },
+    "21": {
+      "acceleration": "3.1 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "604 km"
+    }
   },
-  "Model X Plaid": {
-    "acceleration": "2.6 secs",
-    "batteryPack": "100 kWh",
-    "curbWeight": "2459 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "16.5 kWh / 100 km",
-    "enginePower": "?? hp",
-    "engineTorque": "660 Nm",
-    "range": "547 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS11": {
+    "19": {
+      "acceleration": "1.99 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "637 km"
+    },
+    "21": {
+      "acceleration": "1.99 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "560 km"
+    }
   },
-  "Model X Plaid+": {
-    "acceleration": "??? secs",
-    "batteryPack": "??? kWh",
-    "curbWeight": "??? kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "??? kWh / 100 km",
-    "enginePower": "?? hp",
-    "engineTorque": "??? Nm",
-    "range": "??? km",
-    "topSpeed": "??? km/h",
-    "wheelBase": "??? mm"
+  "MTS12": {
+    "19": {
+      "acceleration": "3.1 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "652 km"
+    }
   },
-  "Model X Standard Range": {
-    "acceleration": "4.8 secs",
-    "batteryPack": "80 kWh",
-    "curbWeight": "2407 kg",
-    "dimensions": "5037 x 2070 x 1626",
-    "efficiency": "21.3 kWh / 100 km",
-    "enginePower": "329 hp",
-    "engineTorque": "658 Nm",
-    "range": "520 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2964 mm"
+  "MTS13": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "634 km"
+    },
+    "21": {
+      "acceleration": "3.2 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "634 km"
+    }
   },
-  "Model Y": {
-    "acceleration": "6.9 secs",
-    "batteryPack": "62 kWh",
-    "curbWeight": "1909 kg",
-    "dimensions": "4750 x 1920 x 1624",
-    "efficiency": "15.7 kWh / 100 km",
-    "enginePower": "342 hp",
-    "engineTorque": "420 Nm",
-    "range": "430 km",
-    "topSpeed": "217 km/h",
-    "wheelBase": "2890 mm"
+  "MTS14": {
+    "19": {
+      "acceleration": "2.1 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "600 km"
+    },
+    "21": {
+      "acceleration": "2.1 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "600 km"
+    }
   },
-  "Model Y Long Range AWD": {
-    "acceleration": "5.1 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2003 kg",
-    "dimensions": "4750 x 1920 x 1624",
-    "efficiency": "16.7 kWh / 100 km",
-    "enginePower": "384 hp",
-    "engineTorque": "510 Nm",
-    "range": "524 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2890 mm"
+  "MTS18": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "634 km"
+    },
+    "21": {
+      "acceleration": "3.2 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "634 km"
+    }
   },
-  "Model Y Long Range RWD": {
-    "acceleration": "5.9 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2003 kg",
-    "dimensions": "4750 x 1920 x 1624",
-    "efficiency": "14 kWh / 100 km",
-    "enginePower": "258 hp",
-    "engineTorque": "430 Nm",
-    "range": "540 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2890 mm"
+  "MTS19": {
+    "19": {
+      "acceleration": "2.1 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "600 km"
+    },
+    "21": {
+      "acceleration": "2.1 s",
+      "topSpeed": "322 km/h",
+      "rangeWLTP": "600 km"
+    }
   },
-  "Model Y Performance": {
-    "acceleration": "3.5 secs",
-    "batteryPack": "75 kWh",
-    "curbWeight": "2003 kg",
-    "dimensions": "4750 x 1920 x 1624",
-    "efficiency": "17.4 kWh / 100 km",
-    "enginePower": "456 hp",
-    "engineTorque": "673 Nm",
-    "range": "507 km",
-    "topSpeed": "250 km/h",
-    "wheelBase": "2890 mm"
+  "MTX01": {
+    "20": {
+      "acceleration": "4.8 s",
+      "topSpeed": "210 km/h",
+      "rangeWLTP": "375 km"
+    }
   },
-  "Model Y Standard Range": {
-    "acceleration": "6.3 secs",
-    "batteryPack": "50 kWh",
-    "curbWeight": "2003 kg",
-    "dimensions": "4750 x 1920 x 1624",
-    "efficiency": "13 kWh / 100 km",
-    "enginePower": "280 hp",
-    "engineTorque": "350 Nm",
-    "range": "390 km",
-    "topSpeed": "193 km/h",
-    "wheelBase": "2890 mm"
+  "MTX03": {
+    "20": {
+      "acceleration": "4.6 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "507 km"
+    },
+    "22": {
+      "acceleration": "4.6 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "507 km"
+    }
+  },
+  "MTX04": {
+    "20": {
+      "acceleration": "3.6 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "487 km"
+    },
+    "22": {
+      "acceleration": "3.4 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "484 km"
+    }
+  },
+  "MTX05": {
+    "20": {
+      "acceleration": "4.6 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "507 km"
+    },
+    "22": {
+      "acceleration": "4.6 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "507 km"
+    }
+  },
+  "MTX06": {
+    "20": {
+      "acceleration": "2.8 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "487 km"
+    },
+    "22": {
+      "acceleration": "2.8 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "487 km"
+    }
+  },
+  "MTX07": {
+    "20": {
+      "acceleration": "4.6 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "561 km"
+    },
+    "22": {
+      "acceleration": "4.4 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "597 km"
+    }
+  },
+  "MTX08": {
+    "20": {
+      "acceleration": "2.8 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "548 km"
+    }
+  },
+  "MTX13": {
+    "20": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    },
+    "22": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    }
+  },
+  "MTX14": {
+    "20": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    },
+    "22": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    }
+  },
+  "MTX15": {
+    "20": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    },
+    "22": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    }
+  },
+  "MTX16": {
+    "20": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    },
+    "22": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    }
+  },
+  "MTX18": {
+    "20": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    },
+    "22": {
+      "acceleration": "3.9 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "576 km"
+    }
+  },
+  "MTX19": {
+    "20": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    },
+    "22": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "543 km"
+    }
+  },
+  "MTY01": {
+    "19": {
+      "acceleration": "5.3 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "739 km"
+    },
+    "20": {
+      "acceleration": "5.3 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "739 km"
+    }
+  },
+  "MTY03": {
+    "19": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "987 km"
+    },
+    "20": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "987 km"
+    }
+  },
+  "MTY04": {
+    "20": {
+      "acceleration": "3.5 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "953 km"
+    },
+    "21": {
+      "acceleration": "3.5 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "880 km"
+    }
+  },
+  "MTY05": {
+    "21": {
+      "acceleration": "3.5 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "917 km"
+    }
+  },
+  "MTY06": {
+    "19": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "987 km"
+    },
+    "20": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "987 km"
+    }
+  },
+  "MTY07": {
+    "19": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "507 km"
+    },
+    "20": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "507 km"
+    }
+  },
+  "MTY08": {},
+  "MTY09": {
+    "19": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "533 km"
+    },
+    "20": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "533 km"
+    }
+  },
+  "MTY10": {
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "514 km"
+    }
+  },
+  "MTY12": {
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "514 km"
+    }
+  },
+  "MTY13": {
+    "19": {
+      "acceleration": "6.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "455 km"
+    },
+    "20": {
+      "acceleration": "6.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "430 km"
+    }
+  },
+  "MTY16": {},
+  "MTY18": {},
+  "MTY19": {
+    "20": {
+      "acceleration": "6.6 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "732 km"
+    }
+  },
+  "MTY20": {},
+  "MTY21": {},
+  "MTY22": {},
+  "MTY24": {
+    "19": {
+      "acceleration": "4.8 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "932 km"
+    }
+  },
+  "MTY25": {
+    "21": {
+      "acceleration": "3.5 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "449 km"
+    }
+  },
+  "MTY26": {},
+  "MTY27": {},
+  "MTY28": {},
+  "MTY29": {
+    "19": {
+      "acceleration": "5.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "600 km"
+    },
+    "20": {
+      "acceleration": "5.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "565 km"
+    }
+  },
+  "MTY32": {
+    "19": {
+      "acceleration": "6.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "455 km"
+    },
+    "20": {
+      "acceleration": "6.9 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "455 km"
+    }
+  },
+  "MTY33": {
+    "19": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "533 km"
+    },
+    "20": {
+      "acceleration": "5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "533 km"
+    }
+  },
+  "MTY35": {
+    "19": {
+      "acceleration": "6.5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "969 km"
+    },
+    "20": {
+      "acceleration": "6.5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "893 km"
+    }
   }
 }

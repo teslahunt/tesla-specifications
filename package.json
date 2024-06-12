@@ -34,17 +34,24 @@
     "@commitlint/config-conventional": "latest",
     "@ksmithut/prettier-standard": "latest",
     "ava": "latest",
+    "browserless": "latest",
     "c8": "latest",
     "ci-publish": "latest",
+    "debug-logfmt": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
     "github-generate-release": "latest",
+    "lodash": "latest",
     "nano-staged": "latest",
     "npm-check-updates": "latest",
+    "parse-num": "latest",
+    "puppeteer": "latest",
+    "signal-exit": "latest",
     "simple-git-hooks": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
-    "standard-version": "latest"
+    "standard-version": "latest",
+    "tesla-inventory": "latest"
   },
   "engines": {
     "node": ">= 14"
