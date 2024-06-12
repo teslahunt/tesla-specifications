@@ -1,3 +1,5 @@
+'use strict'
+
 const teslaSpecs = require('./index.json')
 
 const EXTRA = {
