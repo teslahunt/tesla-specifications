@@ -7,11 +7,12 @@ const parseNum = require('parse-num')
 const path = require('path')
 
 const {
-  sortObjectByKey,
-  milesToKm,
-  fetcher,
   EPAtoWLTP,
-  unitSpace
+  fetcher,
+  milesToKm,
+  sortObjectByKey,
+  unitSpace,
+  WLTPtoEPA
 } = require('./util')
 
 const teslaInventory = require('tesla-inventory')(fetcher)
@@ -65,6 +66,7 @@ const processResults = results => {
       spec.acceleration = unitSpace(spec.acceleration)
       spec.topSpeed = unitSpace(spec.topSpeed)
       spec.rangeWLTP = unitSpace(spec.rangeWLTP)
+      spec.rangeEPA = `${WLTPtoEPA(parseNum(spec.rangeWLTP))} mi`
       DATA[chassis][wheels] = spec
     }
 

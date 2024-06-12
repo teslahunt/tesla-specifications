@@ -45,8 +45,20 @@ const sortObjectByKey = obj =>
 const milesToKm = miles => Math.round(miles * 1.60934)
 
 // https://evdb.nz/wltp
-const EPAtoWLTP = range => Math.round(range * 1.16)
+
+/* turn kms into WLTP range */
+const EPAtoWLTP = kms => Math.round(kms * 1.16)
+
+/* turn kms into miles for EPA range */
+const WLTPtoEPA = kms => Math.round(kms / 1.61)
 
 const unitSpace = str => str.replace(/(\d+)([a-zA-Z/])/, '$1 $2')
 
-module.exports = { fetcher, sortObjectByKey, milesToKm, EPAtoWLTP, unitSpace }
+module.exports = {
+  fetcher,
+  sortObjectByKey,
+  milesToKm,
+  EPAtoWLTP,
+  WLTPtoEPA,
+  unitSpace
+}
