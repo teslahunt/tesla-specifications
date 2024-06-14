@@ -19,7 +19,7 @@
       "rangeEPA": "393 mi"
     },
     "22": {
-      "acceleration": "4.9 s",
+      "acceleration": "4.9 sec",
       "topSpeed": "249 km/h",
       "rangeWLTP": "565 km",
       "rangeEPA": "351 mi"
@@ -96,7 +96,7 @@
   "MT304": {
     "18": {
       "acceleration": "3.4 s",
-      "topSpeed": "233 km/h",
+      "topSpeed": "261 km/h",
       "rangeWLTP": "530 km",
       "rangeEPA": "329 mi"
     },
@@ -115,12 +115,6 @@
   },
   "MT305": {
     "18": {
-      "acceleration": "5.2 s",
-      "topSpeed": "225 km/h",
-      "rangeWLTP": "425 km",
-      "rangeEPA": "264 mi"
-    },
-    "19": {
       "acceleration": "5.2 s",
       "topSpeed": "225 km/h",
       "rangeWLTP": "425 km",
@@ -222,6 +216,12 @@
     }
   },
   "MT320": {
+    "18": {
+      "acceleration": "5.3 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "430 km",
+      "rangeEPA": "267 mi"
+    },
     "19": {
       "acceleration": "5.3 s",
       "topSpeed": "225 km/h",
@@ -271,6 +271,12 @@
       "topSpeed": "233 km/h",
       "rangeWLTP": "576 km",
       "rangeEPA": "358 mi"
+    },
+    "19": {
+      "acceleration": "3.7 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "538 km",
+      "rangeEPA": "334 mi"
     }
   },
   "MT325": {
@@ -406,6 +412,7 @@
       "rangeEPA": "304 mi"
     }
   },
+  "MT75R": {},
   "MTS03": {
     "19": {
       "acceleration": "3.8 s",
@@ -754,12 +761,6 @@
       "topSpeed": "217 km/h",
       "rangeWLTP": "455 km",
       "rangeEPA": "283 mi"
-    },
-    "20": {
-      "acceleration": "5.3 s",
-      "topSpeed": "217 km/h",
-      "rangeWLTP": "455 km",
-      "rangeEPA": "283 mi"
     }
   },
   "MTY03": {
@@ -774,14 +775,6 @@
       "topSpeed": "217 km/h",
       "rangeWLTP": "608 km",
       "rangeEPA": "378 mi"
-    }
-  },
-  "MTY04": {
-    "21": {
-      "acceleration": "3.5 s",
-      "topSpeed": "249 km/h",
-      "rangeWLTP": "544 km",
-      "rangeEPA": "338 mi"
     }
   },
   "MTY05": {
@@ -843,6 +836,20 @@
       "rangeEPA": "319 mi"
     }
   },
+  "MTY11": {
+    "19": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "616 km",
+      "rangeEPA": "383 mi"
+    },
+    "20": {
+      "acceleration": "4.2 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "594 km",
+      "rangeEPA": "369 mi"
+    }
+  },
   "MTY12": {
     "21": {
       "acceleration": "3.7 s",
@@ -868,12 +875,6 @@
   "MTY16": {},
   "MTY18": {},
   "MTY19": {
-    "19": {
-      "acceleration": "6.6 s",
-      "topSpeed": "217 km/h",
-      "rangeWLTP": "486 km",
-      "rangeEPA": "302 mi"
-    },
     "20": {
       "acceleration": "6.6 s",
       "topSpeed": "217 km/h",
