@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 2.0.9 (2024-06-16)
+
+
+### Bug Fixes
+
+* merge new data ([5711188](https://github.com/teslahunt/tesla-specifications/commit/5711188f6e6afc12e43598d3a799b7309518b840))
+
 ### 2.0.8 (2024-06-16)
 
 ### 2.0.7 (2024-06-14)
