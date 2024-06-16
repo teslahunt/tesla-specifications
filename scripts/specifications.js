@@ -42,7 +42,7 @@ const getWheels = OptionCodeData => {
 
 const MODEL_LETTER = ['s', '3', 'x', 'y']
 const MODEL_CONDITION = ['used', 'new']
-const DATA = require('..')
+const DATA = require('../src/index.json')
 
 const processResults = results => {
   for (const item of results) {
