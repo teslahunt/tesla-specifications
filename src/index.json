@@ -293,6 +293,12 @@
       "topSpeed": "225 km/h",
       "rangeWLTP": "491 km",
       "rangeEPA": "305 mi"
+    },
+    "19": {
+      "acceleration": "5.6 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "491 km",
+      "rangeEPA": "305 mi"
     }
   },
   "MT328": {
@@ -410,6 +416,12 @@
       "topSpeed": "225 km/h",
       "rangeWLTP": "490 km",
       "rangeEPA": "304 mi"
+    },
+    "22": {
+      "acceleration": "5.2 s",
+      "topSpeed": "209 km/h",
+      "rangeWLTP": "417 km",
+      "rangeEPA": "259 mi"
     }
   },
   "MT75R": {},
