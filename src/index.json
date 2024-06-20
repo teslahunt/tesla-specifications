@@ -269,6 +269,12 @@
       "topSpeed": "233 km/h",
       "rangeWLTP": "614 km",
       "rangeEPA": "381 mi"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "614 km",
+      "rangeEPA": "381 mi"
     }
   },
   "MT324": {
