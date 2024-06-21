@@ -26,9 +26,6 @@
     "spec",
     "tesla"
   ],
-  "dependencies": {
-    "tesla-title": "~2.1.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
