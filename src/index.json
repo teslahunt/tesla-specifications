@@ -679,6 +679,12 @@
       "topSpeed": "261 km/h",
       "rangeWLTP": "548 km",
       "rangeEPA": "340 mi"
+    },
+    "22": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "483 km",
+      "rangeEPA": "300 mi"
     }
   },
   "MTX11": {
@@ -990,6 +996,14 @@
       "topSpeed": "217 km/h",
       "rangeWLTP": "533 km",
       "rangeEPA": "331 mi"
+    }
+  },
+  "MTY34": {
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "514 km",
+      "rangeEPA": "319 mi"
     }
   },
   "MTY35": {
