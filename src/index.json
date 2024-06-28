@@ -368,6 +368,14 @@
       "rangeEPA": "340 mi"
     }
   },
+  "MT341": {
+    "18": {
+      "acceleration": "5.9 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "620 km",
+      "rangeEPA": "385 mi"
+    }
+  },
   "MT351": {
     "18": {
       "acceleration": "6.1 s",
