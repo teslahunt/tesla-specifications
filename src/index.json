@@ -164,6 +164,12 @@
     }
   },
   "MT311": {
+    "18": {
+      "acceleration": "3.2 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "518 km",
+      "rangeEPA": "322 mi"
+    },
     "20": {
       "acceleration": "3.4 s",
       "topSpeed": "261 km/h",
