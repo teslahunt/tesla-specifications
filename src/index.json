@@ -510,6 +510,12 @@
     }
   },
   "MTS08": {
+    "19": {
+      "acceleration": "2.3 s",
+      "topSpeed": "261 km/h",
+      "rangeWLTP": "637 km",
+      "rangeEPA": "396 mi"
+    },
     "21": {
       "acceleration": "2.5 s",
       "topSpeed": "261 km/h",
