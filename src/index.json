@@ -627,6 +627,12 @@
       "topSpeed": "210 km/h",
       "rangeWLTP": "375 km",
       "rangeEPA": "233 mi"
+    },
+    "22": {
+      "acceleration": "4.6 s",
+      "topSpeed": "209 km/h",
+      "rangeWLTP": "410 km",
+      "rangeEPA": "255 mi"
     }
   },
   "MTX03": {
