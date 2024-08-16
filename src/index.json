@@ -465,6 +465,12 @@
       "topSpeed": "250 km/h",
       "rangeWLTP": "610 km",
       "rangeEPA": "379 mi"
+    },
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "600 km",
+      "rangeEPA": "373 mi"
     }
   },
   "MTS04": {
