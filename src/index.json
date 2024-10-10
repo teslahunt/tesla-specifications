@@ -432,6 +432,20 @@
       "rangeEPA": "328 mi"
     }
   },
+  "MT357": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "636 km",
+      "rangeEPA": "395 mi"
+    },
+    "19": {
+      "acceleration": "4.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "582 km",
+      "rangeEPA": "361 mi"
+    }
+  },
   "MT75A": {
     "19": {
       "acceleration": "4.4 s",
@@ -1120,6 +1134,14 @@
       "topSpeed": "217 km/h",
       "rangeWLTP": "550 km",
       "rangeEPA": "342 mi"
+    }
+  },
+  "MTY38": {
+    "21": {
+      "acceleration": "3.7 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "446 km",
+      "rangeEPA": "277 mi"
     }
   }
 }
