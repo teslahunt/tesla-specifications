@@ -1136,6 +1136,14 @@
       "rangeEPA": "342 mi"
     }
   },
+  "MTY36": {
+    "20": {
+      "acceleration": "6.5 s",
+      "topSpeed": "217 km/h",
+      "rangeWLTP": "491 km",
+      "rangeEPA": "305 mi"
+    }
+  },
   "MTY38": {
     "21": {
       "acceleration": "3.7 s",
