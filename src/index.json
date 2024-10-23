@@ -753,6 +753,14 @@
       "rangeEPA": "300 mi"
     }
   },
+  "MTX10": {
+    "20": {
+      "acceleration": "3.8 s",
+      "topSpeed": "249 km/h",
+      "rangeWLTP": "579 km",
+      "rangeEPA": "360 mi"
+    }
+  },
   "MTX11": {
     "22": {
       "acceleration": "2.5 s",
