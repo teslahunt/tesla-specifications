@@ -943,6 +943,12 @@
       "topSpeed": "240 km/h",
       "rangeWLTP": "586 km",
       "rangeEPA": "364 mi"
+    },
+    "22": {
+      "acceleration": "2.6 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "549 km",
+      "rangeEPA": "341 mi"
     }
   },
   "MTY01": {
