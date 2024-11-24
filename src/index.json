@@ -438,6 +438,12 @@
       "topSpeed": "201 km/h",
       "rangeWLTP": "549 km",
       "rangeEPA": "341 mi"
+    },
+    "19": {
+      "acceleration": "4.2 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "491 km",
+      "rangeEPA": "305 mi"
     }
   },
   "MT355": {
