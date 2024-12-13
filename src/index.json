@@ -51,6 +51,14 @@
       "rangeEPA": "337 mi"
     }
   },
+  "MT10P": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "250 km/h",
+      "rangeWLTP": "613 km",
+      "rangeEPA": "381 mi"
+    }
+  },
   "MT301": {
     "18": {
       "acceleration": "5.6 s",
