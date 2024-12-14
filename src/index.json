@@ -523,6 +523,14 @@
     }
   },
   "MT75R": {},
+  "MTS01": {
+    "21": {
+      "acceleration": "4.2 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "450 km",
+      "rangeEPA": "280 mi"
+    }
+  },
   "MTS03": {
     "19": {
       "acceleration": "3.8 s",
