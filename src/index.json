@@ -1016,6 +1016,12 @@
       "rangeWLTP": "587 km",
       "rangeEPA": "365 mi"
     },
+    "20": {
+      "acceleration": "3.5 s",
+      "topSpeed": "233 km/h",
+      "rangeWLTP": "587 km",
+      "rangeEPA": "365 mi"
+    },
     "21": {
       "acceleration": "3.5 s",
       "topSpeed": "249 km/h",
