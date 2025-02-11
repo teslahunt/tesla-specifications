@@ -5,6 +5,7 @@ on:
     # Cron job every day at 12:00
     # https://crontab.guru/#0_12_*_*_*
     - cron: '12 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -18,13 +19,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - name: Puppeteer
-        run: node node_modules/puppeteer/install.mjs
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
         with:
           version: latest
           run_install: true
+      - name: Setup Puppeteer
+        run: node node_modules/puppeteer/install.mjs
       - name: Cron
         run: |
           git config --global user.email ${{ secrets.GIT_EMAIL }}
