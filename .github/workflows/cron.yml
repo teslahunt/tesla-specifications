@@ -7,7 +7,7 @@ on:
     - cron: '12 0 * * *'
 
 jobs:
-  test:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
+      - name: Puppeteer
+        run: node node_modules/puppeteer/install.mjs
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
         with:
