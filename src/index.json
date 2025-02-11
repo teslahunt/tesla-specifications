@@ -496,6 +496,14 @@
       "rangeEPA": "361 mi"
     }
   },
+  "MT360": {
+    "20": {
+      "acceleration": "2.9 s",
+      "topSpeed": "262 km/h",
+      "rangeWLTP": "557 km",
+      "rangeEPA": "346 mi"
+    }
+  },
   "MT75A": {
     "19": {
       "acceleration": "4.4 s",
@@ -522,7 +530,14 @@
       "rangeEPA": "259 mi"
     }
   },
-  "MT75R": {},
+  "MT75R": {
+    "19": {
+      "acceleration": "5.5 s",
+      "topSpeed": "225 km/h",
+      "rangeWLTP": "401 km",
+      "rangeEPA": "249 mi"
+    }
+  },
   "MT90A": {
     "20": {
       "acceleration": "4.8 s",
