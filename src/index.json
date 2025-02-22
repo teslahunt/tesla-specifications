@@ -737,6 +737,20 @@
       "rangeEPA": "373 mi"
     }
   },
+  "MTS20": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "209 km/h",
+      "rangeWLTP": "766 km",
+      "rangeEPA": "476 mi"
+    },
+    "21": {
+      "acceleration": "3.2 s",
+      "topSpeed": "209 km/h",
+      "rangeWLTP": "710 km",
+      "rangeEPA": "441 mi"
+    }
+  },
   "MTS21": {
     "19": {
       "acceleration": "2.1 s",
