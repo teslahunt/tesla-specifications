@@ -1362,6 +1362,12 @@
       "topSpeed": "201 km/h",
       "rangeWLTP": "586 km",
       "rangeEPA": "364 mi"
+    },
+    "2.02": {
+      "acceleration": "4.8 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "568 km",
+      "rangeEPA": "353 mi"
     }
   }
 }
