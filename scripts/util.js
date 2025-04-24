@@ -44,15 +44,41 @@ const sortObjectByKey = obj =>
 
 const milesToKm = miles => Math.round(miles * 1.60934)
 
-// https://evdb.nz/wltp
+/**
+ * turn kms into WLTP range
+ * https://ev-range-standard-converter.web.app/
+ */
+const EPAtoWLTP = kms => Math.round(kms * 1.168)
 
-/* turn kms into WLTP range */
-const EPAtoWLTP = kms => Math.round(kms * 1.16)
+/**
+ * turn kms into miles for EPA range
+ * https://ev-range-standard-converter.web.app/
+ */
+const WLTPtoEPA = kms => Math.round(kms / 1.168)
 
-/* turn kms into miles for EPA range */
-const WLTPtoEPA = kms => Math.round(kms / 1.61)
-
-const unitSpace = str => str.replace(/(\d+)([a-zA-Z/])/, '$1 $2')
+const normalizeUnit = str =>
+  str
+    .replace('公里/小時', 'km/h') // tw
+    .replace('公里/小时', 'km/h') // cn
+    .replace('กม./ชม.', 'km/h') // th
+    .replace('km/u', 'km/h') // be
+    .replace('km/klst', 'km/h') // is
+    .replace('km/t', 'km/h') // dk
+    .replace('km/s', 'km/h') // sn
+    .replace('χλμ/ώρα', 'km/h') // gr
+    .replace('קמ״ש', 'km/h') // il
+    .replace('公里', 'km') // cn
+    .replace('กม', 'km') // th
+    .replace('ק״מ', 'km') // il
+    .replace('χλμ', 'km') // gr
+    .replace('δευτ.', 's') // gr
+    .replace('วินาที', 's') // th
+    .replace('sn', 's') // tr
+    .replace('sec', 's') // bg
+    .replace('שנ', 's') // il
+    .replace('秒', 's') // cn
+    .replace('Sek.', 's') // at
+    .replace(/(\d+)([a-zA-Z/])/, '$1 $2')
 
 module.exports = {
   fetcher,
@@ -60,5 +86,5 @@ module.exports = {
   milesToKm,
   EPAtoWLTP,
   WLTPtoEPA,
-  unitSpace
+  normalizeUnit
 }

@@ -11,7 +11,7 @@ const {
   fetcher,
   milesToKm,
   sortObjectByKey,
-  unitSpace,
+  normalizeUnit,
   WLTPtoEPA
 } = require('./util')
 
@@ -44,7 +44,7 @@ const MODEL_LETTER = ['s', '3', 'x', 'y']
 const MODEL_CONDITION = ['used', 'new']
 const DATA = require('../src/index.json')
 
-const processResults = results => {
+const processResults = (inventoryCode, results) => {
   for (const item of results) {
     const { OptionCodeData, VIN: vin } = item
     const specData = OptionCodeData.filter(data =>
@@ -54,40 +54,48 @@ const processResults = results => {
     const chassis = specData[0].code.slice(1)
 
     const spec = {
-      acceleration: getSpec('SPECS_ACCELERATION', specData),
-      topSpeed: getSpec('SPECS_TOP_SPEED', specData),
-      rangeWLTP: rangeWLTP('SPECS_RANGE', specData)
+      acceleration: normalizeUnit(getSpec('SPECS_ACCELERATION', specData)),
+      topSpeed: normalizeUnit(getSpec('SPECS_TOP_SPEED', specData)),
+      rangeWLTP: normalizeUnit(rangeWLTP('SPECS_RANGE', specData))
     }
 
-    if (DATA[chassis] === undefined) DATA[chassis] = {}
-    if (DATA[chassis][wheels]) continue
+    spec.rangeEPA = `${WLTPtoEPA(parseNum(spec.rangeWLTP))} mi`
+
+    debug(chassis, inventoryCode, spec)
 
     const updateSpec = spec => {
-      spec.acceleration = unitSpace(spec.acceleration)
-      spec.topSpeed = unitSpace(spec.topSpeed)
-      spec.rangeWLTP = unitSpace(spec.rangeWLTP)
-      spec.rangeEPA = `${WLTPtoEPA(parseNum(spec.rangeWLTP))} mi`
-      DATA[chassis][wheels] = spec
+      if (DATA[chassis] === undefined) {
+        DATA[chassis] = {}
+        DATA[chassis][wheels] = spec
+      } else {
+        const previousSpec = DATA[chassis][wheels]
+        const previousAcceleration = Number(
+          previousSpec.acceleration.split(' ')[0]
+        )
+        const aceleration = Number(spec.acceleration.split(' ')[0])
+
+        if (previousAcceleration > aceleration) {
+          debug('found mismatching acceleration', chassis, inventoryCode, vin, {
+            previous: JSON.stringify(DATA[chassis][wheels]),
+            new: JSON.stringify(spec)
+          })
+          DATA[chassis][wheels] = spec
+        }
+
+        if (parseNum(previousSpec.acceleration) < parseNum(spec.acceleration)) {
+          debug('skipped', { vin, chassis }, spec)
+        }
+      }
     }
 
     if (spec.topSpeed.includes('km/h') && spec.acceleration.endsWith('s')) {
       updateSpec(spec)
-    } else if (spec.acceleration.endsWith('Sek.')) {
-      updateSpec({
-        ...spec,
-        acceleration: spec.acceleration.replace('Sek.', 's')
-      })
-    } else if (spec.topSpeed.endsWith('km/u')) {
-      updateSpec({
-        ...spec,
-        topSpeed: spec.topSpeed.replace('km/u', 'km/h')
-      })
     } else if (spec.topSpeed.includes('mph')) {
       updateSpec({
         ...spec,
         acceleration: spec.acceleration.replace('sec', 's'),
-        topSpeed: `${milesToKm(parseNum(spec.topSpeed))}km/h`,
-        rangeWLTP: `${milesToKm(parseNum(spec.rangeWLTP))}km`
+        topSpeed: `${milesToKm(parseNum(spec.topSpeed))} km/h`,
+        rangeWLTP: `${milesToKm(parseNum(spec.rangeWLTP))} km`
       })
     } else {
       debug('skipped', { vin, chassis }, spec)
@@ -105,7 +113,7 @@ const main = async inventories => {
             model,
             condition
           })
-          processResults(results)
+          processResults(inventoryCode, results)
         } catch (error) {
           debug.error(error.message || error, {
             inventoryCode,
