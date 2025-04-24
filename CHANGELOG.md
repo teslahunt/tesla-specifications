@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.1.0 (2025-04-24)
+
+
+### Features
+
+* unify units across inventories ([6b010df](https://github.com/teslahunt/tesla-specifications/commit/6b010dfdec3c66d175801d3f288edf0b1f9b0679))
+
 ### 2.0.66 (2025-04-24)
 
 ### 2.0.65 (2025-04-23)
