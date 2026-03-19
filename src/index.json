@@ -582,6 +582,14 @@
       "rangeEPA": "477 mi"
     }
   },
+  "MT373": {
+    "18": {
+      "acceleration": "6.1 s",
+      "topSpeed": "200 km/h",
+      "rangeWLTP": "634 km",
+      "rangeEPA": "543 mi"
+    }
+  },
   "MT75A": {
     "19": {
       "acceleration": "4.2 s",
@@ -854,6 +862,14 @@
       "rangeEPA": "430 mi"
     }
   },
+  "MTS22": {
+    "19": {
+      "acceleration": "3.2 s",
+      "topSpeed": "240 km/h",
+      "rangeWLTP": "715 km",
+      "rangeEPA": "612 mi"
+    }
+  },
   "MTX01": {
     "20": {
       "acceleration": "4.6 s",
@@ -1098,6 +1114,14 @@
       "topSpeed": "262 km/h",
       "rangeWLTP": "549 km",
       "rangeEPA": "470 mi"
+    }
+  },
+  "MTX22": {
+    "20": {
+      "acceleration": "3.9 s",
+      "topSpeed": "240 km/h",
+      "rangeWLTP": "700 km",
+      "rangeEPA": "599 mi"
     }
   },
   "MTY01": {
@@ -1560,6 +1584,14 @@
       "topSpeed": "201 km/h",
       "rangeWLTP": "551 km",
       "rangeEPA": "472 mi"
+    }
+  },
+  "MTY79": {
+    "19": {
+      "acceleration": "5.9 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "593 km",
+      "rangeEPA": "508 mi"
     }
   }
 }
