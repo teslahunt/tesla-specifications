@@ -590,6 +590,14 @@
       "rangeEPA": "543 mi"
     }
   },
+  "MT369": {
+    "19": {
+      "acceleration": "5.2 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "691 km",
+      "rangeEPA": "592 mi"
+    }
+  },
   "MT373": {
     "18": {
       "acceleration": "6.1 s",
@@ -1126,10 +1134,10 @@
   },
   "MTX22": {
     "20": {
-      "acceleration": "3.9 s",
+      "acceleration": "3.8 s",
       "topSpeed": "240 km/h",
-      "rangeWLTP": "700 km",
-      "rangeEPA": "599 mi"
+      "rangeWLTP": "566 km",
+      "rangeEPA": "301 mi"
     }
   },
   "MTY01": {
