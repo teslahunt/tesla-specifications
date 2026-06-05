@@ -590,12 +590,28 @@
       "rangeEPA": "543 mi"
     }
   },
+  "MT368": {
+    "18": {
+      "acceleration": "6.1 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "534 km",
+      "rangeEPA": "457 mi"
+    }
+  },
   "MT369": {
     "19": {
       "acceleration": "5.2 s",
       "topSpeed": "201 km/h",
       "rangeWLTP": "691 km",
       "rangeEPA": "592 mi"
+    }
+  },
+  "MT370": {
+    "18": {
+      "acceleration": "4.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "715 km",
+      "rangeEPA": "612 mi"
     }
   },
   "MT371": {
