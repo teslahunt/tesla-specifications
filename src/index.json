@@ -630,6 +630,14 @@
       "rangeEPA": "543 mi"
     }
   },
+  "MT374": {
+    "18": {
+      "acceleration": "5.2 s",
+      "topSpeed": "200 km/h",
+      "rangeWLTP": "830 km",
+      "rangeEPA": "711 mi"
+    }
+  },
   "MT75A": {
     "19": {
       "acceleration": "4.2 s",
