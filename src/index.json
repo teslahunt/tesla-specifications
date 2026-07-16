@@ -1642,12 +1642,36 @@
       "rangeEPA": "472 mi"
     }
   },
+  "MTY60": {
+    "19": {
+      "acceleration": "5.4 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "575 km",
+      "rangeEPA": "306 mi"
+    }
+  },
+  "MTY61": {
+    "18": {
+      "acceleration": "6.8 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "517 km",
+      "rangeEPA": "275 mi"
+    }
+  },
   "MTY62": {
     "19": {
       "acceleration": "4.8 s",
       "topSpeed": "201 km/h",
       "rangeWLTP": "600 km",
       "rangeEPA": "514 mi"
+    }
+  },
+  "MTY77": {
+    "19": {
+      "acceleration": "4.6 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "455 km",
+      "rangeEPA": "242 mi"
     }
   },
   "MTY78": {
