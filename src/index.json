@@ -1642,6 +1642,14 @@
       "rangeEPA": "472 mi"
     }
   },
+  "MTY58": {
+    "19": {
+      "acceleration": "5.9 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "488 km",
+      "rangeEPA": "418 mi"
+    }
+  },
   "MTY60": {
     "19": {
       "acceleration": "5.4 s",
@@ -1664,6 +1672,14 @@
       "topSpeed": "201 km/h",
       "rangeWLTP": "600 km",
       "rangeEPA": "514 mi"
+    }
+  },
+  "MTY75": {
+    "192": {
+      "acceleration": "4.5 s",
+      "topSpeed": "201 km/h",
+      "rangeWLTP": "681 km",
+      "rangeEPA": "583 mi"
     }
   },
   "MTY77": {
