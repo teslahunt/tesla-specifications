@@ -616,10 +616,10 @@
   },
   "MT370": {
     "18": {
-      "acceleration": "4.4 s",
+      "acceleration": "4.2 s",
       "topSpeed": "201 km/h",
-      "rangeWLTP": "715 km",
-      "rangeEPA": "612 mi"
+      "rangeWLTP": "650 km",
+      "rangeEPA": "346 mi"
     }
   },
   "MT371": {
